@@ -38,3 +38,42 @@ header > .bg-inverse{
     font-size: 2.5rem;
   }
 }
+
+
+.caja{
+   
+   
+    /*background-color: grey;    */
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+
+    height: 2rem;
+    line-height: 2rem; 
+    font-size: 2rem;
+
+     overflow: hidden; 
+}
+
+.caja div{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambio 3s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/*ul li{ 
+    color: aliceblue;
+    background-color: rgb(27, 70, 107);
+ }*/
+
+.caja div, caja p{ margin: 0 }
+
+@keyframes cambio{
+
+    0%{ margin-top: -4rem; }
+    50%{ margin-top: -2rem; }    
+    100%{ margin-top: -0rem; }
+
+}
