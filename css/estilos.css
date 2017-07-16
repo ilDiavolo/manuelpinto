@@ -45,14 +45,15 @@ header > .bg-inverse{
     margin-top: 42px;
     margin-bottom: 0px !important;
   }
-
-  .fondo div{
+  .mean{
+    margin: 0px !important;
+  }
+  .fondo > div{
     padding: 0 !important;
   }
   
   .fondo div div .h2{
    font-size: 1.5rem;
-  font-weight: 300;
   }
   .fondo div div img{
     width: 40px;
